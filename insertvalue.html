@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>user details</title>
+    <style>
+    
+        body{
+            
+background-image: url("https://i.ytimg.com/vi/d1FZGpv2-Q4/maxresdefault.jpg");
+background-size: cover;
+            text-align: center;
+        }
+        ul {
+    list-style-type: none;
+    margin:0%;
+    padding:0;
+    overflow:hidden;
+    background-color: cornflowerblue;
+    text-align: center;
+    
+}
+li{
+    float:left;
+    font-size:20px;
+}
+li a{
+    font-family: lato;
+    float: left
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    width:30%;
+    text-decoration: none;  
+}
+li a:hover{
+    background-color:palegreen;
+    color: blue;
+  }
+
+  {
+  box-sizing: border-box;
+}
+
+input[type=text]{
+  width: 10%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+      
+    </style>
+</head>
+<body>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="insertvalue.html">Enter Details</a></li>
+      <li><a href="UserDetails.php">View Users</a></li>
+     <li><a href="moneytransfer.html">Transactions</a></li>
+      <li><a href="transferhistory.php">Transaction History</a></li>
+     
+      </ul>
+    
+    <h1>USER DETAILS</h1>
+    <form action="insert.php" method="post">
+
+<label>Name:</label>
+<input type="text" name="name"><br>
+    <label >Email:</label>
+<input type="text" name="email"><br>
+    <label >Mobile No:</label>
+<input type="text" name="mobileno"><br>
+    <label >Deposit:</label>
+<input type="text" name="deposit"><br>
+    <label >Date:</label>
+<input type="date" name="date"><br>
+    <label >Gender:</label>
+    <label for="female">
+<input type="radio"
+     name="gender" value="f" >Female</label>
+    <label for="male">
+<input type="radio" 
+     name="gender" value="m">Male</label><br>
+    
+
+     
+    <button>Submit</button>
+   </form>
+    
+</body>
+</html>
