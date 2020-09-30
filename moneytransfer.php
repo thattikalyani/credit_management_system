@@ -72,7 +72,7 @@ td, th {
       <li><a href="home.html">Home</a></li>
       <li><a href="insertvalue.html">Enter Details</a></li>
       <li><a href="UserDetails.php">View Users</a></li>
-     <li><a href="moneytransfer.html">Transactions</a></li>
+     <li><a href="moneytransfer.php">Transactions</a></li>
       <li><a href="transferhistory.php">Transaction History</a></li>
      
       </ul>
